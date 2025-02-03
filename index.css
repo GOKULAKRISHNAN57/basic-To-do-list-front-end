@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(252, 239, 173);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    gap:12px;
+}
+
+#in{
+    width: 350px;
+    height: 50px;
+    border-radius: 5%;
+    border: 6px solid grey;
+}
+
+#in{
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+}
+
+#submit{
+    background-color:rgb(233, 215, 194);
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    height: 45px;
+    width: 65px;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+#delete_button{
+    background-color:rgb(194, 233, 228);
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    height: 45px;
+    width: 65px;
+    border-radius: 10%;
+    margin-top: 10px;
+
+}
+
+.lists{
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+
+}
+
+.delete_button {
+    background-color: rgb(194, 233, 228);
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    height: 45px;
+    width: 65px;
+    border-radius: 10%;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.delete_button:hover {
+    background-color: rgb(255, 100, 100);
+    color: white;
+}
+
+
+
+
+
+
